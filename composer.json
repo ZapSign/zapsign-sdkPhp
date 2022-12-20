@@ -1,0 +1,19 @@
+{
+    "name": "zapsign/sdk",
+    "description": "sdk for zapsign api",
+    "autoload": {
+        "psr-4": {
+            "Zapsign\\Sdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EduardoMaizow",
+            "email": "eduardomaizow@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+        "ext-http": "*"
+    }
+}
